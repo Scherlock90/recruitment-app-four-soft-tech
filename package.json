@@ -42,7 +42,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "echo test scrip",
     "eject": "react-scripts eject",
     "lint": "echo lint script"
   },
