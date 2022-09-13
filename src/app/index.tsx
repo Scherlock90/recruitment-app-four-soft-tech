@@ -13,7 +13,6 @@ import { GlobalStyles } from 'src/theme/GlobalStyles';
 export const App = (): JSX.Element => {
   const { theme, themeLoaded, isListLoading, details, applicationListData, takeDetailId } = useApp();
 
-
   return (
     <>
       {themeLoaded && (
