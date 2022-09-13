@@ -1,3 +1,3 @@
 # Small recruitment app
 
-# test gitbhu workflow
+## Github actions workflow is here added as a test repository with it
