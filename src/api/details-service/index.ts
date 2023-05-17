@@ -13,7 +13,7 @@ export default {
    */
   async getAppDetails(id: number, isThrowError: boolean): Promise<AxiosResponse<TDetails> | typeof ERROR_MESSAGE> {
     try {
-      return await HTTP(isThrowError).get(`${APP_DETAILS_ENDPOINT}/${id}`);
+      return await HTTP(isThrowError).get(`${APP_DETAILS_ENDPOINT}/${id}`, {retry: 3, retryDelay: 3000});
     } catch (err) {
       console.error(err);
 

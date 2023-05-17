@@ -1,59 +1,54 @@
-{
-  "parser": "@typescript-eslint/parser",
-  "rules": {
-    "no-var": 2,
-    "sort-vars": 2,
-    "newline-before-return": 2,
-    "no-else-return": 2,
-    "no-console": [
-      2,
-      {
-        "allow": [
-          "warn",
-          "error",
-          "table",
-          "info"
-        ]
-      }
-    ],
-    "no-empty": 2,
-    "no-empty-function": 2,
-    "no-extra-semi": 2,
-    "no-trailing-spaces": 2,
-    "no-unneeded-ternary": 2,
-    "prefer-const": 2,
-    "object-shorthand": 2,
-    "better-styled-components/sort-declarations-alphabetically": 2,
-    "@typescript-eslint/no-unused-vars": 2,
-    "@typescript-eslint/no-use-before-define": 2,
-    "@typescript-eslint/no-explicit-any": [
-      "error",
-      {
-        "ignoreRestArgs": false
-      }
-    ],
-    "import/no-unresolved": 0,
-    "react/display-name": 0
-  },
-  "overrides": [
-    {
-      "files": [
-        "**/*.tsx"
-      ],
-      "rules": {
-        "react/prop-types": "off"
-      }
-    }
-  ],
-  "extends": [
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:import/recommended"
-  ],
-  "plugins": [
-    "react",
-    "better-styled-components",
-    "import",
-    "prettier"
-  ]
-}
+// {
+//   "parser": "@typescript-eslint/parser",
+//   "rules": {
+//     "no-var": 2,
+//     "sort-vars": 2,
+//     "newline-before-return": 2,
+//     "no-else-return": 2,
+//     "no-console": [
+//       2,
+//       {
+//         "allow": [
+//           "warn",
+//           "error",
+//           "table",
+//           "info"
+//         ]
+//       }
+//     ],
+//     "@typescript-eslint/no-explicit-any": "off",
+//     "no-empty": 2,
+//     "no-empty-function": 2,
+//     "no-extra-semi": 2,
+//     "no-trailing-spaces": 2,
+//     "no-unneeded-ternary": 2,
+//     "prefer-const": 2,
+//     "object-shorthand": 2,
+//     "better-styled-components/sort-declarations-alphabetically": 2,
+//     "@typescript-eslint/no-unused-vars": 2,
+//     "@typescript-eslint/no-use-before-define": 2,
+//     "import/no-unresolved": 0,
+//     "react/display-name": 0
+//   },
+//   "overrides": [
+//     {
+//       "files": [
+//         "**/*.tsx"
+//       ],
+//       "rules": {
+//         "react/prop-types": "off"
+//       }
+//     }
+//   ],
+//   "extends": [
+//     "plugin:react/recommended",
+//     "plugin:@typescript-eslint/recommended",
+//     "plugin:import/recommended"
+//   ],
+//   "plugins": [
+//     "react",
+//     "better-styled-components",
+//     "import",
+//     "prettier"
+//   ]
+// }
